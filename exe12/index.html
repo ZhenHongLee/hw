@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
+
 <head>
     <meta charset="utf-8">
     <title>exe12</title>
     <style>
         h1 {
-            text-shadow: 0px 0px 7px salmon;
-            text-decoration: wavy underline;
-            text-transform: uppercase; }
-        .center{
-            text-align: center;}
+            text-align: center;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+            text-shadow: 0px 0px 10px navy;
+            font-size: 48px;
+        }
 
+
+        #text-of01 {
+            width: 200px;
+            border: 1px solid cornflowerblue;
+            overflow: hidden;
+            text-overflow: clip;
+            white-space: nowrap;
+        }
+
+
+        #text02-of02 {
+            width: 150px;
+            border: 1px solid blueviolet;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+
+        p#text-tittle01 {
+            width: 150px;
+            border: 1px solid blueviolet;
+            word-wrap: normal;
+        }
+
+
+        p#text-tittle02 {
+            width: 150px;
+            border: 1px solid blueviolet;
+            word-wrap: break-word;
+        }
+
+
+        #text-content01 {
+            width: 400px;
+            border: 1px solid palevioletred;
+            text-indent: 32px;
+            text-align: justify;
+        }
+
+
+        #text-content02 {
+            width: 400px;
+            border: 1px solid palevioletred;
+            text-indent: 40px;
+            text-align: justify;
+        }
     </style>
 </head>
 
+
 <body>
-    <h1>"Chasing Dreams: The Legend of the Firebird"</h1>
-    <h1>"Chasing Dreams: The Legend of the Firebird"</h1>
+    <h1 id="text-of01">"Chasing Dreams: The Legend of the Firebird"</h1>
+    <h1 id="text-of02">"Chasing Dreams: The Legend of the Firebird"</h1>
     <h1 class="center">"Chasing Dreams: The Legend of the Firebird"</h1>
-    <pre>
-        <h2>
-        In the heart of a tranquil village, Elara and her fox friend Tumble sought the legendary Firebird. 
-        Through mystical forests and whispered legends, they chased dreams. Amidst the glow of twilight, 
+    <p id="text-content01">
+        In the heart of a tranquil village, Elara and her fox friend Tumble sought the legendary Firebird.
+        Through mystical forests and whispered legends, they chased dreams. Amidst the glow of twilight,
         they found the Firebird, its brilliance inspiring a revelation: true magic lies in pursuing dreams, not wishes.
-        </h2>
-    </pre>
+    </p>
+    <p id="text-content02">
+        In the heart of a tranquil village, Elara and her fox friend Tumble sought the legendary Firebird.
+        Through mystical forests and whispered legends, they chased dreams. Amidst the glow of twilight,
+        they found the Firebird, its brilliance inspiring a revelation: true magic lies in pursuing dreams, not wishes.
+    </p>
+    <hr />
+    <p id="text-titile01">(https://www.chatgpt.cpm)</p>
+    <p id="text-titile02">(https://www.chatgpt.cpm)</p>
 </body>
 
+
 </html>
+
