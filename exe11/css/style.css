@@ -1,0 +1,33 @@
+body{
+    max-height: 1000px;
+}about:blank#blocked
+.zcoool-kuaile-regular{
+    font-family: "ZCOOL KuaiLe",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: cornflowerblue;
+}
+#text_content{
+    text-align: center;
+    font-size: medium;
+}
+
+
+p{
+    font-size: 32px;
+}
+.font01{
+    font-weight: 100;
+    background-color: violet;
+}
+.font02{
+    font-weight: 400;
+    text-decoration: underline 2px wavy blueviolet;
+    background-color: teal;
+}
+.font03{
+    font-weight: 700;
+    text-shadow: 0px 0px 10px navy;
+    background-color: turquoise;
+}
